@@ -1,0 +1,278 @@
+.symptom-analyzer {
+  background: var(--bg-primary);
+  border-radius: 16px;
+  box-shadow: 0 4px 20px var(--shadow-color);
+  overflow: hidden;
+}
+
+.analyzer-header {
+  padding: 1.5rem 2rem;
+  background: linear-gradient(135deg, #e74c3c, #c0392b);
+  color: white;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-icon {
+  font-size: 1.8rem;
+}
+
+.analyzer-header h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.analyzer-header .subtitle {
+  font-size: 0.85rem;
+  opacity: 0.9;
+  margin: 0;
+}
+
+.analyzer-body {
+  padding: 2rem;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.symptom-input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.symptom-textarea {
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid var(--border-color);
+  border-radius: 12px;
+  font-family: inherit;
+  font-size: 1rem;
+  resize: vertical;
+  min-height: 120px;
+  transition: border-color 0.3s;
+  color: var(--text-primary);
+  background: var(--bg-secondary);
+}
+
+.symptom-textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+.symptom-textarea:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.input-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.analyze-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.8rem 2rem;
+  background: linear-gradient(135deg, #e74c3c, #c0392b);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.analyze-button:hover:not(.disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(231, 76, 60, 0.4);
+}
+
+.analyze-button.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.spinner {
+  animation: spin 1s linear infinite;
+}
+
+.common-symptoms {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.common-symptoms .label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+.symptom-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.symptom-tag {
+  padding: 0.4rem 1rem;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 20px;
+  font-size: 0.85rem;
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.symptom-tag:hover:not(:disabled) {
+  background: var(--primary-color);
+  color: white;
+  border-color: var(--primary-color);
+  transform: scale(1.05);
+}
+
+.symptom-tag:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.error-message {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: #fee;
+  border-left: 4px solid var(--danger-color);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #c0392b;
+}
+
+.error-icon {
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.analysis-results {
+  margin-top: 2rem;
+  border-top: 2px solid var(--border-color);
+  padding-top: 2rem;
+}
+
+.analysis-header {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.analysis-icon {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
+
+.analysis-header h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.analysis-content {
+  background: var(--bg-secondary);
+  padding: 1.5rem;
+  border-radius: 12px;
+  line-height: 1.8;
+}
+
+/* Markdown styles for analysis */
+.analysis-h1 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 0.8rem 0 0.5rem;
+  color: var(--text-primary);
+}
+
+.analysis-h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0.6rem 0 0.4rem;
+  color: var(--text-primary);
+}
+
+.analysis-h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0.5rem 0 0.3rem;
+  color: var(--text-primary);
+}
+
+.analysis-ul {
+  margin: 0.5rem 0;
+  padding-left: 1.5rem;
+}
+
+.analysis-ol {
+  margin: 0.5rem 0;
+  padding-left: 1.5rem;
+}
+
+.analysis-li {
+  margin: 0.2rem 0;
+}
+
+.analysis-strong {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.analysis-p {
+  margin: 0.3rem 0;
+}
+
+.analysis-blockquote {
+  border-left: 3px solid var(--primary-color);
+  padding-left: 1rem;
+  margin: 0.5rem 0;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .analyzer-header {
+    padding: 1rem 1.2rem;
+  }
+
+  .analyzer-body {
+    padding: 1.2rem;
+  }
+
+  .symptom-tags {
+    gap: 0.3rem;
+  }
+
+  .symptom-tag {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.8rem;
+  }
+
+  .analyze-button {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .analysis-content {
+    padding: 1rem;
+  }
+}
