@@ -1,0 +1,70 @@
+# Homeopathy Materia Medica - Common Remedies
+
+## Aconitum Napellus (Aconite)
+- Mental Symptoms: Great anxiety, fear, and restlessness
+- Physical Symptoms: Sudden onset, high fever with dry, hot skin
+- Key Indications: Acute inflammations, croup, bronchitis
+
+## Belladonna
+- Mental Symptoms: Delirium, rage, hallucinations
+- Physical Symptoms: Red face, hot head, dilated pupils
+- Key Indications: Acute inflammations, scarlet fever
+
+## Nux Vomica
+- Mental Symptoms: Irritable, oversensitive, angry
+- Physical Symptoms: Constipation, digestive issues
+- Key Indications: Digestive disorders, hangovers
+
+## Pulsatilla
+- Mental Symptoms: Weepy, changeable mood
+- Physical Symptoms: Thick discharges, thirstless
+- Key Indications: Women's disorders, catarrhal conditions
+
+## Arsenicum Album
+- Mental Symptoms: Great anxiety, fear of death
+- Physical Symptoms: Burning pains relieved by heat
+- Key Indications: Food poisoning, anxiety disorders
+
+## Sulphur
+- Mental Symptoms: Selfish, philosophical
+- Physical Symptoms: Burning soles, offensive discharges
+- Key Indications: Chronic skin conditions
+
+## Lycopodium
+- Mental Symptoms: Anxious, cowardly
+- Physical Symptoms: Bloating after eating
+- Key Indications: Digestive disorders
+
+# General Principles
+
+## Law of Similars
+"Like cures like" - A substance that causes symptoms in a healthy person can cure similar symptoms in a sick person.
+
+## Minimum Dose
+The smallest dose that can produce a therapeutic effect should be used.
+
+## Individualization
+Treatment should be tailored to the individual's unique symptoms and constitution.
+
+# Remedy Indications by System
+
+## Respiratory System
+- Cough: Aconite, Belladonna, Bryonia
+- Asthma: Arsenicum, Natrum Sulph, Sambucus
+- Bronchitis: Hepar Sulph, Sulphur, Antimonium Tart
+
+## Digestive System
+- Constipation: Nux Vomica, Alumina, Bryonia
+- Diarrhea: Arsenicum, Podophyllum, Sulphur
+- Acid Reflux: Natrum Phos, Robinia, Nux Vomica
+
+## Nervous System
+- Anxiety: Aconite, Arsenicum, Gelsemium
+- Depression: Sepia, Natrum Mur, Aurum
+- Insomnia: Coffea, Nux Vomica, Belladonna
+
+## Skin Conditions
+- Eczema: Sulphur, Graphites, Mezereum
+- Acne: Hepar Sulph, Pulsatilla, Silicea
+
+⚠️ Medical Disclaimer: This is educational content only. Always consult a qualified homeopath.
